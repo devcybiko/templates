@@ -2,7 +2,7 @@
 
 ### Overview
 
-In this assignment, you'll create one of two possible computer games: NumberGuess or PsychicDigits. These apps will run in the browser, and feature dynamically updated HTML and CSS powered by your JavaScript code.
+In this assignment, you'll create one of two possible computer games: WordGuess or PsychicLetters. These apps will run in the browser, and feature dynamically updated HTML and CSS powered by your JavaScript code.
 
 ### Commits
 
@@ -26,7 +26,7 @@ Having an active and healthy commit history on GitHub is important for your futu
 
 ### Before You Begin
 
-1. Create a new GitHub repo called `NumberGuessRepo` or `PsychicDigitsRepo`, in accordance with the assignment you choose to complete. Then, clone it to your computer.
+1. Create a new GitHub repo called `WordGuessRepo` or `PsychicLettersRepo`, in accordance with the assignment you choose to complete. Then, clone it to your computer.
 
 2. Inside your local git repository, create an `index.html`.
 
@@ -50,64 +50,64 @@ Having an active and healthy commit history on GitHub is important for your futu
 
 5. Push the above changes to GitHub.
 
-6. Choose whichever game you'd like to build. Making the PsychicDigits game will prove less challenging than coding NumberGuess. However, as the challenge of the NumberGuess exercise provides a more comprehensive review of this unit's material, we suggest attempting that assignment first.
+6. Choose whichever game you'd like to build. Making the PsychicLetters game will prove less challenging than coding WordGuess. However, as the challenge of the WordGuess exercise provides a more comprehensive review of this unit's material, we suggest attempting that assignment first.
 
-7. Note: There's no shame if you'd prefer submitting PsychicDigits—it's still a proper challenge.
+7. Note: There's no shame if you'd prefer submitting PsychicLetters—it's still a proper challenge.
 
 8. Push your selected game to Github Pages.
 
 
-## Option One: PsychicDigits Game (Basic)
+## Option One: PsychicLetters Game (Basic)
 
 ![Psychic](Images/1-Psychic.jpg)
 
 1. [Watch the demo](https://youtu.be/qTc45Lox97g).
 
-2. You're going to make a game just like the one in the video. Essentially, the app randomly picks a digit, and the user has to guess which digit the app chose. Put the following text on your console.log:
+2. You're going to make a game just like the one in the video. Essentially, the app randomly picks a letter, and the user has to guess which letter the app chose. Put the following text on your display.write:
 
-3. Guess what digit I'm thinking of
+3. Guess what letter I'm thinking of
 
-4. Wins: (# of times the user has guessed the digit correctly)
+4. Wins: (# of times the user has guessed the letter correctly)
 
-5. Losses: (# of times the user has failed to guess the digit correctly after exhausting all guesses)
+5. Losses: (# of times the user has failed to guess the letter correctly after exhausting all guesses)
 
 6. Guesses Left: (# of guesses left. This will update)
 
-7. Your Guesses So Far: (the specific digit that the user typed. Display these until the user either wins or loses.)
+7. Your Guesses So Far: (the specific letter that the user typed. Display these until the user either wins or loses.)
 
-8. When the player wins, increase the Wins counter and start the game over again (without refreshing the console.log).
+8. When the player wins, increase the Wins counter and start the game over again (without refreshing the display.write).
 
-9. When the player loses, increase the Losses counter and restart the game without a console.log refresh (just like when the user wins).
+9. When the player loses, increase the Losses counter and restart the game without a display.write refresh (just like when the user wins).
 
-## Option Two: NumberGuess Game (Challenge - Recommended)
+## Option Two: WordGuess Game (Challenge - Recommended)
 
 1. [Watch the demo](https://youtu.be/W-IJcC4tYFI).
 
 2. Choose a theme for your game! In the demo, we picked an 80s theme: 80s questions, 80s sound and an 80s aesthetic. You can choose any subject for your theme, though, so be creative!
 
-3. Use keyboard to listen for the digit that your players will type.
+3. Use keyboard to listen for the letter that your players will type.
 
 4. Display the following on the page:
 
-5. "Get ready to tumble numbers!"!
+5. "Get ready to rumble!"!
 
-6. Wins: (# of times user guessed the number correctly).
+6. Wins: (# of times user guessed the word correctly).
 
-   * If the number is `number-sample`, display it like this when the game starts: `_ _ _ _ _ _ _`.
+   * If the word is `word-sample`, display it like this when the game starts: `_ _ _ _ _ _ _`.
 
-   * As the user guesses the correct digit, reveal them: `1 2 _ _ 5 6 _`.
+   * As the user guesses the correct letter, reveal them: `m a d _ n n a`.
 
 7. Number of Guesses Remaining: (# of guesses remaining for the user).
 
-8. digit Already Guessed: (digit the user has guessed, displayed like `1234567`).
+8. letter Already Guessed: (letter the user has guessed, displayed like `madonna`).
 
 9. After the user wins/loses the game should automatically choose another word and make the user play it.
 
-##### NumberGuess Game Bonuses
+##### WordGuess Game Bonuses
 
-1. Play a sound or song when the user guesses their number correctly, like in our demo.
+1. Play a sound or song when the user guesses their word correctly, like in our demo.
 2. Write some stylish CSS rules to make a design that fits your game's theme.
-3. **HARD MODE:** Organize your game code as an object, except for the key events to get the digit guessed. This will be a challenge if you haven't coded with JavaScript before, but we encourage anyone already familiar with the language to try this out.
+3. **HARD MODE:** Organize your game code as an object, except for the key events to get the letter guessed. This will be a challenge if you haven't coded with JavaScript before, but we encourage anyone already familiar with the language to try this out.
 4. Save your whole game and its properties in an object.
 5. Save any of your game's functions as methods, and call them underneath your object declaration using event listeners.
 6. Don't forget to place your global variables and functions above your object.
