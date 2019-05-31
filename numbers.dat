@@ -1,0 +1,11 @@
+{Psychic}	PsychicDigits
+{WordGuess}	NumberGuess
+{guessSample}	1234567
+{hashedExample}	1 2 _ _ 5 6 _
+{hashedSample}	_ _ _ _ _ _ _
+{inputType}	digit
+{keyType}	keyboard
+{outputType}	console.log
+{startupPrompt}	"Get ready to tumble numbers!"
+{wordSample}	number-sample
+{wordType}	number
