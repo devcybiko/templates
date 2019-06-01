@@ -6,9 +6,10 @@ This program will help to turn one set of instructions into multiple sets of ins
 
 The `template.sh` and `letters.sh` programs are generic and can be reused.
 
-The homework file will include standard MarkDown`.md` content. Words that are replaceable are surrounded by `{curly-braces}`.
 
-* Then use the `listwords.sh` script to list all the `{keywords}` to a file
+* The homework file will include standard MarkDown`.md` content. 
+* Words that are replaceable are surrounded by `{curly-braces}`.
+* Use the `listwords.sh` script to list all the `{keywords}` to a file
 * Next, edit `letters.dat` and add a `TAB` after each line with the words to replace the `{keyword}` with. 
 * MAKE SURE TO USE A TAB!
 * Then, run the `template.sh` script to convert the `homework-instructions.md` file into the first homework file
