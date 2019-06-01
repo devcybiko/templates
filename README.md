@@ -20,7 +20,7 @@ $ vi letters.dat ### add replacement words for each {keyword} - separted by a TA
 $ cp letters.dat digits.dat ### copy the letters.dat to digits.dat
 $ vi digits.dat ### replace the LETTERS replacement words with DIGITS words
 $ template.sh homework-instructions.md letters.dat > homework-letters.md ### create a homework for letters
-$ template.sh homework-instructions.md digits.dat > homework-digits.md ### create a different homework for digits
+$ template.sh homework-instructions.md digits.dat > homework-numbers.md ### create a different homework for digits
  ```
 
 You now have 2 different homework assignments with the same basic structure, but different instructions.
